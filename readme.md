@@ -28,20 +28,7 @@ Core steps:
 4. Evaluate performance
 5. Predict wine type
 
-Example logic used in the Power BI Python script:
 
-```python
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import ExtraTreesClassifier
+## License
 
-y = dataset["style"]
-X = dataset.drop("style", axis=1)
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.30
-)
-
-model = ExtraTreesClassifier()
-model.fit(X_train, y_train)
-
-dataset["Predict"] = model.predict(X)
+This project is provided for educational and demonstration purposes.
