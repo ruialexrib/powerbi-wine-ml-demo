@@ -7,12 +7,7 @@ The solution is implemented entirely inside a Power BI report using a Python scr
 ## Files
 
 - `wine_ml_extratrees.pbix`  
-  Power BI report containing the full workflow:
-  - Data loading
-  - Train/test split
-  - Model training with `ExtraTreesClassifier`
-  - Evaluation (Accuracy, Precision, Recall, F1-Score)
-  - Predictions stored in the dataset
+  Power BI report containing the full workflow.
 
 - `wine_dataset.csv`  
   Dataset containing physicochemical wine features and the target variable `style`.
