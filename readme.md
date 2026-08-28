@@ -134,4 +134,4 @@ Although wine classification is used as the example, the same integration patter
 
 Distributed under the [MIT License](LICENSE).
 
-Copyright © 2026 [Rui Ribeiro](https://github.com/ruialexrib).
+Copyright © 2025 [Rui Ribeiro](https://github.com/ruialexrib).
